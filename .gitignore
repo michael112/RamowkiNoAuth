@@ -1,0 +1,6 @@
+.vs
+.idea
+RamowkiNoAuth/[Oo]bj/
+RamowkiNoAuth/[Bb]in/
+RamowkiNoAuth/Migrations/
+appsettings-nogit.json
