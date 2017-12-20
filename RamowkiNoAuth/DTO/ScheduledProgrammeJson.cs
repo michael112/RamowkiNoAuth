@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-using RamowkiAPIMockedNoSQL.Models;
+using RamowkiNoAuth.Models;
 
-namespace RamowkiAPIMockedNoSQL.DTO
+namespace RamowkiNoAuth.DTO
 {
     public class ScheduledProgrammeJson
     {

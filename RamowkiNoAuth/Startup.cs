@@ -11,11 +11,11 @@ using Microsoft.Extensions.Options;
 using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
 
-using RamowkiAPIMockedNoSQL.Services.ProgrammeService;
-using RamowkiAPIMockedNoSQL.Services.ScheduleService;
-using RamowkiAPIMockedNoSQL.Utils;
+using RamowkiNoAuth.Services.ProgrammeService;
+using RamowkiNoAuth.Services.ScheduleService;
+using RamowkiNoAuth.Utils;
 
-namespace RamowkiAPIMockedNoSQL
+namespace RamowkiNoAuth
 {
     public class Startup
     {

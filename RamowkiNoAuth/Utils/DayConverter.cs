@@ -5,9 +5,9 @@ using System.Threading.Tasks;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
-using RamowkiAPIMockedNoSQL.Models;
+using RamowkiNoAuth.Models;
 
-namespace RamowkiAPIMockedNoSQL.Utils
+namespace RamowkiNoAuth.Utils
 {
     public class DayConverter : JsonConverter
     {

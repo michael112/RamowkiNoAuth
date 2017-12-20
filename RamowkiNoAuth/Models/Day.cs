@@ -4,9 +4,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 
-using RamowkiAPIMockedNoSQL.Utils;
+using RamowkiNoAuth.Utils;
 
-namespace RamowkiAPIMockedNoSQL.Models
+namespace RamowkiNoAuth.Models
 {
     public abstract class Day {
         [JsonProperty(Required = Required.AllowNull)]

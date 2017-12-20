@@ -5,9 +5,9 @@ using System.Threading.Tasks;
 using Newtonsoft.Json;
 using System.ComponentModel;
 
-using RamowkiAPIMockedNoSQL.Models;
+using RamowkiNoAuth.Models;
 
-namespace RamowkiAPIMockedNoSQL.DTO
+namespace RamowkiNoAuth.DTO
 {
     public class DayWrapper
     {

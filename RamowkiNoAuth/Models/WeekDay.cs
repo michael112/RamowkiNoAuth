@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace RamowkiAPIMockedNoSQL.Models
+namespace RamowkiNoAuth.Models
 {
     public class WeekDay : Day
     {

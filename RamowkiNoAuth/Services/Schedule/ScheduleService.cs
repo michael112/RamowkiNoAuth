@@ -4,11 +4,11 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 
-using RamowkiAPIMockedNoSQL.DTO;
-using RamowkiAPIMockedNoSQL.Models;
-using RamowkiAPIMockedNoSQL.Services.ProgrammeService;
+using RamowkiNoAuth.DTO;
+using RamowkiNoAuth.Models;
+using RamowkiNoAuth.Services.ProgrammeService;
 
-namespace RamowkiAPIMockedNoSQL.Services.ScheduleService
+namespace RamowkiNoAuth.Services.ScheduleService
 {
     public class ScheduleService : IScheduleService
     {

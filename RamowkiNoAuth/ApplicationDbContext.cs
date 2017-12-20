@@ -4,9 +4,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 
-using RamowkiAPIMockedNoSQL.Models;
+using RamowkiNoAuth.Models;
 
-namespace RamowkiAPIMockedNoSQL
+namespace RamowkiNoAuth
 {
     public class ApplicationDbContext : DbContext
     {

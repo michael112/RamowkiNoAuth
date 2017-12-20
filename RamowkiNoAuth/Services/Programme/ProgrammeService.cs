@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-using RamowkiAPIMockedNoSQL.DTO;
-using RamowkiAPIMockedNoSQL.Models;
+using RamowkiNoAuth.DTO;
+using RamowkiNoAuth.Models;
 
-namespace RamowkiAPIMockedNoSQL.Services.ProgrammeService
+namespace RamowkiNoAuth.Services.ProgrammeService
 {
     public class ProgrammeService : IProgrammeService
     {

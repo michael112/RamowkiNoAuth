@@ -4,11 +4,11 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
-using RamowkiAPIMockedNoSQL.DTO;
-using RamowkiAPIMockedNoSQL.Services.ScheduleService;
-using RamowkiAPIMockedNoSQL.Models;
+using RamowkiNoAuth.DTO;
+using RamowkiNoAuth.Services.ScheduleService;
+using RamowkiNoAuth.Models;
 
-namespace RamowkiAPIMockedNoSQL.Controllers
+namespace RamowkiNoAuth.Controllers
 {
     [Route("api/[controller]")]
     public class ScheduleController : Controller

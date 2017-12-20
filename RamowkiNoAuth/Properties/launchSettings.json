@@ -16,7 +16,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "RamowkiAPIMockedNoSQL": {
+    "RamowkiNoAuth": {
       "commandName": "Project",
       "launchBrowser": true,
       "environmentVariables": {

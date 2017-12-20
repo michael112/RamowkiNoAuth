@@ -4,12 +4,12 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
-using RamowkiAPIMockedNoSQL.Services.ProgrammeService;
-using RamowkiAPIMockedNoSQL.Models;
-using RamowkiAPIMockedNoSQL.DTO;
+using RamowkiNoAuth.Services.ProgrammeService;
+using RamowkiNoAuth.Models;
+using RamowkiNoAuth.DTO;
 
 
-namespace RamowkiAPIMockedNoSQL.Controllers
+namespace RamowkiNoAuth.Controllers
 {
     [Route("api/[controller]")]
     public class ProgrammeController : Controller
