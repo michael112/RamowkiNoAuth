@@ -21,7 +21,7 @@ Przykładowa zawartość JSON:
 	"Title": "Przykładowa audycja 1",
 	"Description": "Opis audycji"
 }
-```javascript
+```
 
 Pole Description jest opcjonalne.
 
@@ -69,6 +69,7 @@ Przykładowa zawartość JSON (jeśli ma zostać przypisany do ramówki specjaln
 		"Minutes": 0
 	}
 }
+```
 
 lub (przypisanie do ramówki cyklicznej na dany dzień tygodnia):
 
@@ -86,6 +87,7 @@ lub (przypisanie do ramówki cyklicznej na dany dzień tygodnia):
 		"Minutes": 0
 	}
 }
+```
 
 Dni tygodnia numerujemy w sposób następujący:
 
@@ -119,6 +121,7 @@ Przykładowa zawartość JSON (jeśli ma zostać przypisany do ramówki specjaln
 		"Minutes": 0
 	}
 }
+```
 
 lub (przypisanie do ramówki cyklicznej na dany dzień tygodnia):
 
@@ -132,6 +135,7 @@ lub (przypisanie do ramówki cyklicznej na dany dzień tygodnia):
 		"Minutes": 0
 	}
 }
+```
 
 Dni tygodnia numerujemy jak wyżej.
 
@@ -157,6 +161,7 @@ Przykładowa zawartość JSON (jeśli ma zostać przypisany do ramówki specjaln
 		"Minutes": 0
 	}
 }
+```
 
 lub (przypisanie do ramówki cyklicznej na dany dzień tygodnia):
 
@@ -170,6 +175,7 @@ lub (przypisanie do ramówki cyklicznej na dany dzień tygodnia):
 		"Minutes": 0
 	}
 }
+```
 
 10. Usuwanie pozycji ramówkowej (bez usunięcia samej audycji!).
 
