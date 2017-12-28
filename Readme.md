@@ -4,6 +4,8 @@ Celem niniejszej aplikacji było zapoznanie się z techniką tworzenia API sieci
 
 Aplikacja obsługuje uproszczone zarządzanie ramówkami radiowymi lub telewizyjnymi, z możliwością przygotowania ramówki cyklicznej - tygodniowej, oraz ramówek specjalnych, na konkretną datę.
 
+Powyższa aplikacja nie zawiera autoryzacji. Jeśli chcesz zapoznać się z wersją rozszerzoną o autoryzację przy użyciu OpenIdDict, przejdź pod adres: https://github.com/michael112/RamowkiWithOpenIddictAuth
+
 ## Wymagania techniczne
 
 Aplikacja działa w środowisku .NET Core w wersji 2.0. SDK niezbędne do uruchomienia aplikacji można pobrać pod adresem: https://www.microsoft.com/net/download
