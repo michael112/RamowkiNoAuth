@@ -21,6 +21,7 @@ Przykładowa zawartość JSON:
 	"Title": "Przykładowa audycja 1",
 	"Description": "Opis audycji"
 }
+```javascript
 
 Pole Description jest opcjonalne.
 
