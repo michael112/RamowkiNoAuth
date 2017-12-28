@@ -15,6 +15,8 @@ Aplikacja działa w środowisku .NET Core w wersji 2.0. SDK niezbędne do urucho
 Zapytanie HTTP POST pod adres /api/programme.
 
 Przykładowa zawartość JSON:
+
+```javascript
 {
 	"Title": "Przykładowa audycja 1",
 	"Description": "Opis audycji"
@@ -51,6 +53,8 @@ Zapytanie nie oczekuje JSON-a w zawartości.
 Zapytanie HTTP POST pod adres /api/schedule. Wymagane konto administratorskie.
 
 Przykładowa zawartość JSON (jeśli ma zostać przypisany do ramówki specjalnej na konkretną datę):
+
+```javascript
 {
 	"Programme": {
 		"Title": "sample title",
@@ -67,6 +71,7 @@ Przykładowa zawartość JSON (jeśli ma zostać przypisany do ramówki specjaln
 
 lub (przypisanie do ramówki cyklicznej na dany dzień tygodnia):
 
+```javascript
 {
 	"Programme": {
 		"Title": "sample title",
@@ -102,6 +107,8 @@ itp... (reszta z dzielenia nr dnia przez 7)
 Zapytanie HTTP POST pod adres /api/schedule/?programme=<programmeID>, gdzie za <programmeID> podajemy odpowiedni identyfikator.
 
 Przykładowa zawartość JSON (jeśli ma zostać przypisany do ramówki specjalnej na konkretną datę):
+
+```javascript
 {
 	"Day": {
 		"Date": "15-11-2016",
@@ -114,6 +121,7 @@ Przykładowa zawartość JSON (jeśli ma zostać przypisany do ramówki specjaln
 
 lub (przypisanie do ramówki cyklicznej na dany dzień tygodnia):
 
+```javascript
 {
 	"Day": {
 		"WeekDay": 2,
@@ -137,6 +145,8 @@ Zapytanie NIE MOŻE zawierać JSON-a.
 Zapytanie HTTP PUT pod adres /api/schedule/<scheduleID>, gdzie za <scheduleID> podajemy identyfikator pozycji w ramówce. Wymagane konto administratorskie.
 
 Przykładowa zawartość JSON (jeśli ma zostać przypisany do ramówki specjalnej na konkretną datę):
+
+```javascript
 {
 	"Day": {
 		"Date": "15-11-2016",
@@ -149,6 +159,7 @@ Przykładowa zawartość JSON (jeśli ma zostać przypisany do ramówki specjaln
 
 lub (przypisanie do ramówki cyklicznej na dany dzień tygodnia):
 
+```javascript
 {
 	"Day": {
 		"WeekDay": 2,
