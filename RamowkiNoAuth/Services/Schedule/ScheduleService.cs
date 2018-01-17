@@ -30,7 +30,8 @@ namespace RamowkiNoAuth.Services.ScheduleService
         {
             ScheduledProgramme scheduleToEdit = this.GetScheduledProgramme(scheduleID);
             scheduleToEdit.Day = programme.Day.ToDay();
-            scheduleToEdit.BeginTime = programme.BeginTime;
+            scheduleToEdit.BeginTime.Hours = programme.BeginTime.Hours;
+            scheduleToEdit.BeginTime.Minutes = programme.BeginTime.Minutes;
             this.dbContext.SaveChanges();
         }
         public void SwitchProgramme(string scheduleID, string programmeID)
