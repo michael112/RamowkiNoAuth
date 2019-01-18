@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 
 using RamowkiNoAuth.DTO;
@@ -52,7 +51,7 @@ namespace RamowkiNoAuth.Services.ScheduleService
         }
         public IEnumerable<ScheduledProgramme> GetScheduledProgrammeListByWeekDay(int dayNumber)
         {
-            return this.dbContext.ScheduledProgrammes.Include(s => s.Programme).Include(s => s.Day).Where( s => ( s.Day is WeekDay ) && ( ( (WeekDay) s.Day ).Day.Equals(new WeekDay(dayNumber).Day) ) ).ToList();
+            return this.dbContext.ScheduledProgrammes.Include(s => s.Programme).Include(s => s.Day).Where( s => ( s.Day is WeekDay ) && ( ( (WeekDay) s.Day ).Day.Equals(new WeekDay(dayNumber).Day) ) ).ToList().OrderBy( e => e.BeginTime );
         }
         public IEnumerable<ScheduledProgramme> GetScheduledProgrammeListByDate(string date)
         {
@@ -64,7 +63,7 @@ namespace RamowkiNoAuth.Services.ScheduleService
             }
             else
             {
-                return dateList;
+                return dateList.OrderBy( e => e.BeginTime );
             }
         }
 
