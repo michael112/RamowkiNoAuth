@@ -1,11 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace RamowkiNoAuth.Models
 {
-    public class Time
+    public class Time : IComparable<Time>
     {
         public int Hours { get; set; }
         public int Minutes { get; set; }
@@ -16,5 +13,17 @@ namespace RamowkiNoAuth.Models
             this.Minutes = minutes;
         }
         public Time(int hours) : this(hours, 0) {}
+        public int CompareTo(Time other)
+        {
+            int hoursCompared = this.Hours.CompareTo(other.Hours);
+            if (hoursCompared != 0)
+            {
+                return hoursCompared;
+            }
+            else
+            {
+                return this.Minutes.CompareTo(other.Minutes);
+            }
+        }
     }
 }
